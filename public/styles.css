@@ -1,0 +1,22 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Creepster', cursive;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+.container {
+  text-align: center;
+}
+
+.scary-text {
+  font-size: 5em;
+  color: #e74c3c;
+  text-shadow: 0 0 10px rgba(231, 76, 60, 0.7), 0 0 20px rgba(231, 76, 60, 0.7);
+}
